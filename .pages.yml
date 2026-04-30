@@ -1,0 +1,19 @@
+media:
+  input: src/assets
+  output: /media
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: src/content/blog
+    fields:
+      - name: title
+        type: string
+      - name: description
+        type: string
+      - name: date
+        type: date
+      - name: image
+        type: image
+      - name: body
+        type: rich-text

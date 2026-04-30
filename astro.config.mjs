@@ -15,20 +15,20 @@ export default defineConfig({
   },
   fonts: [
     {
-      provider: fontProviders.fontsource(),
-      name: "IBM Plex Sans",
+      provider: fontProviders.google(),
+      name: "Roboto",
       cssVariable: "--font-sans",
       weights: [400, 500, 600],
     },
     {
-      provider: fontProviders.fontsource(),
-      name: "IBM Plex Mono",
+      provider: fontProviders.google(),
+      name: "Roboto",
       cssVariable: "--font-mono",
       weights: [400, 500, 600],
     },
     {
-      provider: fontProviders.fontsource(),
-      name: "IBM Plex Serif",
+      provider: fontProviders.google(),
+      name: "Roboto",
       cssVariable: "--font-serif",
       weights: [400, 500, 600],
     },
