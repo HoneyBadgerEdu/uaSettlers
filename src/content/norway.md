@@ -1,4 +1,5 @@
 ---
+flag: <span class="fi fi-no"></span>
 title: Норвегія
 description: Тест
 date: 2026-04-30
