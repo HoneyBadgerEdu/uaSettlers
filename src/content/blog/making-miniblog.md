@@ -12,6 +12,10 @@ Miniblog is written in Astro, a framework which specializes in static content su
 
 To be honest, not many people care about your blog, so it doesn't need a lot of bells and whistles. The goal is to get information across. I don't think anything should distract from that.
 
+
+
+![](/media/ss.jpg)
+
 ## My Personal Preferences
 
 I prefer to use [Tailwind CSS](https://tailwindcss.com/). It's a pleasure to work with, extremely lightweight, and its theming system is fantastic. You might have even noticed I copied some CSS variables from the popular [shadcn/ui](https://ui.shadcn.com/).
