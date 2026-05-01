@@ -13,23 +13,14 @@ interface Item {
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
 );
-
-const projects: Item[] = [
-  {
-    name: "Miniblog",
-    description: "A minimal Astro blog template.",
-    url: "/",
-    isExternal: false,
-  },
-];
 ---
 
 <Layout>
   <main class="[&_p]:text-muted-foreground">
     <h2>Про проект</h2>
     <p>
-      Країни, які приймають українських біженців, що очікувати при прибутті,
-      інтеграційна програма, грошове забеспечення, перехід на інший статус.
+      Що очікувати при прибутті в іншу країну, інтеграційна програма, грошове забеспечення,
+      перехід на інший статус.
     </p>
     <h2>Країни</h2>
     <div class="flex flex-col gap-2">

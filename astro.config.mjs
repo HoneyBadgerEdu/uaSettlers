@@ -15,22 +15,40 @@ export default defineConfig({
   },
   fonts: [
     {
-      provider: fontProviders.google(),
-      name: "Roboto",
+      provider: fontProviders.local(),
+      name: "Fixel",
       cssVariable: "--font-sans",
       weights: [400, 500, 600],
+            options: {
+        variants: [
+          {
+            src: ["./src/assets/fonts/FixelVariable.ttf"],
+            weight: "normal",
+            style: "normal",
+          },
+        ],
+      },
     },
     {
       provider: fontProviders.google(),
-      name: "Roboto",
+      name: "Fira Code",
       cssVariable: "--font-mono",
       weights: [400, 500, 600],
     },
     {
-      provider: fontProviders.google(),
-      name: "Roboto",
+      provider: fontProviders.local(),
+      name: "Fliex Variable",
       cssVariable: "--font-serif",
       weights: [400, 500, 600],
+            options: {
+        variants: [
+          {
+            src: ["./src/assets/fonts/FixelVariable.ttf"],
+            weight: "normal",
+            style: "normal",
+          },
+        ],
+      },
     },
   ],
   markdown: {
