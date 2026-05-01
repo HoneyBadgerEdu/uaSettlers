@@ -1,10 +1,9 @@
 ---
-title: "Making Miniblog"
-description: "Describing what makes Miniblog opinionated."
-date: "Apr 15 2026"
-image: "../../assets/blog-placeholder-2.jpg"
+title: Making Miniblog
+description: Describing what makes Miniblog opinionated.
+date: 2026-05-01
+image: /media/blog-placeholder-1.jpg
 ---
-
 # Making Miniblog
 
 I've visited my fair share of blogs and have tried a variety of templates. Over time, I've developed some pretty clear preferences and opinions, which I bring to you through Miniblog.
@@ -23,7 +22,7 @@ I don't think you need analytics. You probably won't get many visitors.
 
 You definitely don't need a comments system. Only a small amount of visitors will comment, and you'd have to concern yourself with spam and abuse.
 
-You don't need a <abbr title="Content Management System">CMS</abbr> for a personal blog. A company or product blog, potentially.
+You don't need a CMS for a personal blog. A company or product blog, potentially.
 
 ## Final note
 
