@@ -2,7 +2,7 @@
 title: Making Miniblog
 description: Describing what makes Miniblog opinionated.
 date: 2026-05-01
-image: /media/blog-placeholder-1.jpg
+image: ../../assets/blog-placeholder-1.jpg
 ---
 # Making Miniblog
 
