@@ -1,11 +1,11 @@
 media:
   input: src/assets
-  output: ../../assets
+  output: ../assets
 content:
   - name: posts
     label: Posts
     type: collection
-    path: src/content/blog
+    path: src/content
     fields:
       - name: title
         type: string
