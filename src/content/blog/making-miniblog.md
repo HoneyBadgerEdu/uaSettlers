@@ -14,7 +14,7 @@ To be honest, not many people care about your blog, so it doesn't need a lot of 
 
 
 
-![](/media/ss.jpg)
+![](../../assets/ss.jpg)
 
 ## My Personal Preferences
 
