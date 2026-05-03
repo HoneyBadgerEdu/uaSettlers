@@ -6,6 +6,7 @@ content:
     label: Posts
     type: collection
     path: src/content
+    filename: "{title}.md"
     fields:
       - name: flag
         type: string

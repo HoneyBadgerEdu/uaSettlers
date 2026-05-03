@@ -22,6 +22,8 @@ const { Content } = await render(post);
   image={post.data.image}
 >
   <main>
+    <h1><Fragment set:html={post.data.flag} /> {post.data.title}</h1>
+    <br>
     <Content />
   </main>
 </Layout>
